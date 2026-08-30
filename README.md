@@ -1,3 +1,5 @@
+<img src="icon.png" width="96" align="right" alt="">
+
 # Energy Pebble for Home Assistant
 
 Shows your [Energy Pebble](https://energypebble.tdlx.nl)'s colour signal in Home
@@ -56,6 +58,10 @@ automation:
         target:
           entity_id: switch.dishwasher
 ```
+
+## Licence
+
+MIT. See [LICENSE](LICENSE).
 
 ## Where the code lives
 
