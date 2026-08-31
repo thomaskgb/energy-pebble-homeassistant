@@ -39,7 +39,7 @@ class EnergyPebbleColorSensor(CoordinatorEntity, SensorEntity):
             identifiers={(DOMAIN, device_id)},
             name=entry.data.get(CONF_NICKNAME, device_id),
             manufacturer="Energy Pebble",
-            model="Energy Dot",
+            model="Energy Pebble",
         )
 
     @property
