@@ -59,6 +59,14 @@ automation:
           entity_id: switch.dishwasher
 ```
 
+## Brand images
+
+`custom_components/energy_pebble/brand/` holds the icon Home Assistant shows in
+the integrations list. Since Home Assistant 2026.3 a custom integration ships
+its own, so there is nothing to submit to the `home-assistant/brands`
+repository. Transparent and trimmed as that spec asks, with a `dark_` variant
+whose centre dot stays visible on a dark theme.
+
 ## Licence
 
 MIT. See [LICENSE](LICENSE).
